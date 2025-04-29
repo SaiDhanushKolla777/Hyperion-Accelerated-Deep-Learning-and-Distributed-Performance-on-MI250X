@@ -1,0 +1,4 @@
+﻿,Model,Forward Time (ms),Backward Time (ms),Optimizer Time (ms),Total Time (ms),Memory Usage (MB),Throughput (samples/s)
+1,create_resnet50,18.66003036,34.82624054,2.830181122,56.31645203,3230.984375,568.217614
+2,create_vit_model,1.780433655,3.529763222,0.128793716,5.438990593,514.8666992,5883.444631
+3,create_custom_transformer,3.867812157,8.175392151,0.476856232,12.52006054,617.1689453,2555.898184

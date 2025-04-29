@@ -1,0 +1,29 @@
+{
+  "hardware": {
+    "gpu_type": "MI250X",
+    "num_gpus": 5,
+    "memory_per_gpu_gb": 128
+  },
+  "optimization": {
+    "enable_amp": true,
+    "enable_compile": true,
+    "compile_mode": "reduce-overhead",
+    "optimize_dataloader": true,
+    "set_omp_threads": true,
+    "enable_channels_last": true,
+    "gradient_accumulation_steps": 1,
+    "enable_gradient_checkpointing": false,
+    "distributed_strategy": "ddp"
+  },
+  "benchmarking": {
+    "batch_sizes": [1, 2, 4, 8, 16, 32, 64, 128],
+    "models": ["resnet50", "vit_small", "transformer"],
+    "precision_formats": ["fp32", "fp16", "bf16"],
+    "num_iterations": 50,
+    "warmup_iterations": 10
+  },
+  "distributed": {
+    "backend": "nccl",
+    "init_method": "env://"
+  }
+}
