@@ -1,0 +1,6 @@
+Compilation benchmark highlights:
+
+• **simple_transformer_lm** – compile_def: **1.07×** faster.
+• **simple_transformer_lm** – compile_max: **1.08×** faster.
+• **resnet18_cifar10** – compile_def: **1.68×** faster.
+• **resnet18_cifar10** – compile_max: **1.06×** faster.

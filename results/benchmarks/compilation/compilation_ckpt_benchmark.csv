@@ -1,0 +1,7 @@
+model,variant,time_ms,mem_gb
+resnet18_cifar10,checkpoint,2.547001838684082,0.472438784
+resnet18_cifar10,compile_def,1.5120744705200195,0.046091776
+resnet18_cifar10,compile_max,2.403998374938965,0.046878208
+simple_transformer_lm,checkpoint,5.993127822875977,0.423993856
+simple_transformer_lm,compile_def,5.599784851074219,0.425553408
+simple_transformer_lm,compile_max,5.555963516235352,0.4263552
