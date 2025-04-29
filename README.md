@@ -1,4 +1,4 @@
-# Hyperion-Accelerated-Deep-Learning-and-Distributed-Performance-on-MI250X
+# Hyperion – Accelerated Machine Learning Systems & Distributed Computing on MI250X
 
 ---
 ## 🚀 Introduction
