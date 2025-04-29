@@ -1,0 +1,3 @@
+gpus,ideal,language_ddp_speedup,cifar_speedup,language_fsdp_speedup,language_ddp_efficiency,cifar_efficiency,language_fsdp_efficiency
+1,1,1.0,1.0,1.0,1.0,1.0,1.0
+4,4,3.422275771489795,2.927350084124454,,0.8555689428724488,0.7318375210311135,

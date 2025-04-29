@@ -1,0 +1,2 @@
+epoch,loss,duration_s,gpus,mode
+1,4.096895217895508,4123,1,lora_bf16
