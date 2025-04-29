@@ -23,7 +23,7 @@ from distributed_utils import (
 # ╭─────────────────────────────────────────────────────────────────────────╮
 # │ 0. (optional) – Hugging Face authentication                            │
 # ╰─────────────────────────────────────────────────────────────────────────╯
-HF_TOKEN = "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"        # <-- put yours here
+HF_TOKEN = ""        # <-- put yours here
 if HF_TOKEN:
     try:
         login(token=HF_TOKEN,
