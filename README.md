@@ -11,7 +11,6 @@ This repository is my attempt at a truly **comprehensive, production-grade ML sy
 
 ## 🧭 Table of Contents
 
-- [Motivation and Vision](#motivation-and-vision)
 - [Project Structure](#project-structure)
 - [Hardware and Software Requirements](#hardware-and-software-requirements)
 - [Quickstart Installation](#quickstart-installation)
@@ -30,15 +29,6 @@ This repository is my attempt at a truly **comprehensive, production-grade ML sy
 
 ---
 
-## Motivation and Vision
-
-As someone passionate about the intersection of machine learning, systems, and real hardware, I wanted to answer questions that matter to *any professional ML Systems Engineer*:
-- How close to theoretical peak can I push the hardware?
-- How do I get my pipeline to scale across multiple MI250X GPUs - not just work, but scale efficiently?
-- How do modern compiler passes (torch.compile, kernel fusion) actually change memory and run-time characteristics, beyond the marketing hype?
-- How can I build a pipeline that is **modular, reproducible, and explainable at every step** - from raw dataset to fully sharded LLMs?
-
-If you are seeking a deep, ground-up project that covers *every meaningful systems concept* in applied deep learning, welcome.
 
 ---
 
