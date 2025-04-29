@@ -85,7 +85,7 @@ project-hyperion/
 ## Quickstart Installation
 
 ```
-git clone [https://github.com/SaiDhanushKolla777/Hyperion-Accelerated-Deep-Learning-and-Distributed-Performance-on-MI250X]
+git clone https://github.com/SaiDhanushKolla777/Hyperion-Accelerated-Deep-Learning-and-Distributed-Performance-on-MI250X
 cd project-hyperion
 
 conda create -n hyperion python=3.10
