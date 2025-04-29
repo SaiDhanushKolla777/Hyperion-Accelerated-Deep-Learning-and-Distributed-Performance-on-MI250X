@@ -1,5 +1,4 @@
-# Project-Hyperion-Scaling-Distributed-Deep-Learning-Through-Communication-Optimized-GPU-Frameworks
-
+# Hyperion-Accelerated-Deep-Learning-and-Distributed-Performance-on-MI250X
 
 ---
 ## 🚀 Introduction
