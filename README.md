@@ -7,6 +7,17 @@
 
 This repository is my attempt at a truly **comprehensive, production-grade ML systems project** - with a focus on AMD Instinct MI250X, but written to be insightful for anyone in ML infrastructure, research engineering, or high-performance AI. Every step, every file, every result is reproducible and explained. If you want to see what it takes to move from "vibe coding" to serious, rigorous ML systems engineering, read on!
 
+## TL;DR
+
+- **Hardware:** FP16 on AMD MI250X achieves up to 128.2 TFLOPS; sustained memory bandwidth ≈ 1.27 TB/s.  
+- **Baseline Models:**  
+  - ResNet-50: 56.32 ms/step, 568 samples/s, 3.23 GB memory  
+  - Vision Transformer: 5.44 ms/step, 5 883 samples/s, 0.52 GB memory  
+  - Custom Transformer: 12.52 ms/step, 2 556 samples/s, 0.62 GB memory  
+- **Distributed Scaling:** Near-linear speedup across 2–4 GPUs using DDP/FSDP; LoRA enables Llama-2 fine-tuning in under 10 GB per GPU.  
+- **Compiler Optimization:** Torch-Inductor fusion delivers up to 1.68× speedup (ResNet-18) and reduces peak memory by over 80%.  
+
+
 ---
 
 ## 🧭 Table of Contents
