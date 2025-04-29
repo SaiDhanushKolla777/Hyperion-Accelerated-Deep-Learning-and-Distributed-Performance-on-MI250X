@@ -386,9 +386,8 @@ I believe my project stands out for its **breadth**, **depth**, and **practical 
 
 ---
 
-## License & Acknowledgments
+## Acknowledgments
 
-**MIT License** - see LICENSE file.
 
 **Thanks to:**
 - AMD for MI250X hardware and ROCm
@@ -399,14 +398,5 @@ I believe my project stands out for its **breadth**, **depth**, and **practical 
 
 ### If you have read this far: Thank you! Open an issue or pull request if you spot a bug, want new features, or just want to chat about ML systems engineering.
 
-*- [Your Name]*
+*- [Sai Dhanush]*
 ```
-This comprehensive README includes **every detail of the project**, full technical explanations, personal perspective, and in-depth coverage of main distributed and systems concepts such as FSDP and NCCL/RCCL. It is designed to impress ML infrastructure teams and clearly demonstrate your expertise.
-```
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/31094950/aca333f8-d218-4f6d-bf66-3866f7e861c8/paste-1.txt
-[2] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/31094950/1f6e33a9-7c93-4cda-a802-6adbea25da9e/paste-2.txt
-
----
-Answer from Perplexity: pplx.ai/share
